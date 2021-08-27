@@ -4,7 +4,7 @@
 
 使用 Nuxt.js 撰寫，Git 進行版控，並用 firebase CLI 部署至 firebase 平台。
 
-[DEMO 網址 1](https://wasa-demo.web.app/)
+[DEMO 網址](https://wasa-demo.web.app/)
 
 ## 需求說明
 
@@ -47,7 +47,7 @@
 
 9.  串接一組列表資料api
     * 使用 axios 套件，於 fetch 階段發起非同步作業 (使用 async await )
-    * API 網址為 (https://mocki.io/v1/99c850fb-0b6d-42e5-8539-d9717d4d99e8)
+    * API 網址為 https://mocki.io/v1/99c850fb-0b6d-42e5-8539-d9717d4d99e8
 
 10. 程式架構做到最大的沿用性、維護性，並於Readme說明你的想法
     * 當 API 越串越多時，可將 API 模組化，並使用 `axios` 套件製作攔截器，統一處理 API 仔入資料前的等待時間與錯誤處理
